@@ -70,6 +70,14 @@ body{
     margin: 0;
 }
 
+.nav_icons i{
+    display: flex;
+   color: #000000;
+   background-color: white;
+   position: absolute;
+   right: 15px;
+   width: 24px;
+}
 .language {
     display: flex;
     flex-direction: row;
@@ -685,12 +693,17 @@ font-weight: bold;
     .price_text {
         font-size: 18px;
     }
+    .nav_icons{
+        display: none;
+    }
 }
 @media (max-width: 1024px) {
       .nav_list {
         display: none;
     }
-
+.nav_icons{
+        display: flex;
+    }
     .language {
         display: none;
     }
