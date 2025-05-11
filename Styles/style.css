@@ -698,7 +698,7 @@ font-weight: bold;
     }
 }
 @media (max-width: 1024px) {
-      .nav_list {
+.nav_list {
         display: none;
     }
 .nav_icons{
@@ -783,6 +783,10 @@ font-weight: bold;
 
 
 @media (max-width: 1366px) {
+    .nav_icons{
+        display: none;
+    }
+    
     .hero_text {
         max-width: 70%;
     }
@@ -808,48 +812,62 @@ font-weight: bold;
     }
 }
 @media (max-width: 2000px) {
+.nav_icons{
+        display: none;
+    }
+    .banner_container .hero_text{
+        margin-left: 300px;
+    }
+    .navigation_bar{
+        margin-left: 300px;
+    }
+    
+    .social_logos, .policies {
+        display: flex;
+        margin-right: 300px;
+        
+    }
+    .creadit_cards{
+        margin-left: 300px;
+        padding:0;
+    }
+    
+       
+    }
 
-    .banner_container{
+@media (max-width: 1024px) {
+    .nav_list {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .banner_container {
         display: flex;
         flex-direction: column;
     }
-    .hero_text {
-        max-width: 60%;
-    }
 
-    .hero_text h1 {
-        font-size: 40px;
+    .container_migration {
+        display: flex;
+        flex-direction: column;
     }
-
-    .subtitle {
-        font-size: 22px;
+    .title_migration {
+        display: flex;
+        flex-direction: column;
     }
-
-    .items {
-        max-width: 60%;
-    }
-
-    .Container_card {
-        gap: 20px;
-    }
-
-    .card, .card2, .card3 {
+    .container_migration p{
+        display: flex;
         width: 100vw;
-        margin-top: 50px;
+        flex-direction: column;
+        text-align: center;
     }
-
-    footer {
-        align-items: center;
-    }
-    .social_logos, .policies, .language{
-        margin-right: 500px;
-    }
-    .copyright span{
-        
-        margin-right: 800px;
+    .Container_card{
+        display: flex;
+        flex-direction: column;
     }
 }
-
 
 
 
@@ -902,52 +920,50 @@ font-weight: bold;
     }
     
 }
+@media (max-width: 2000px) {
 
+    .banner_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_text {
+        max-width: 60%;
+    }
+
+    .hero_text h1 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    .items {
+        max-width: 60%;
+    }
+
+    .Container_card {
+        gap: 20px;
+    }
+
+    .card, .card2, .card3 {
+        width: 100vw;
+        margin-top: 50px;
+    }
+
+    footer {
+        align-items: center;
+    }
+    .social_logos, .policies, .language{
+        margin-right: 500px;
+    }
+    .copyright span{
+        
+        margin-right: 800px;
+    }
+}
 
 
 
 .
 /*
-@media (max-width: 2000px) {
-    
-
-    .right {
-        display: flex;
-        margin-left: 1000px;
-        
-    }
-    
-}
-@media (max-width: 1024px) {
-    .nav_list {
-        display: none;
-    }
-
-    .language {
-        display: none;
-    }
-
-    .banner_container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container_migration {
-        display: flex;
-        flex-direction: column;
-    }
-    .title_migration {
-        display: flex;
-        flex-direction: column;
-    }
-    .container_migration p{
-        display: flex;
-        width: 100vw;
-        flex-direction: column;
-        text-align: center;
-    }
-    .Container_card{
-        display: flex;
-        flex-direction: column;
-    }
-}
